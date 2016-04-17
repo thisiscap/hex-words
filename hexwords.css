@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+.intro {
+    width: 96.64%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.square {
+    float:left;
+    position: relative;
+    width: 96%;
+    padding-bottom : 96%; /* = width for a 1:1 aspect ratio */
+    margin: 2%;
+}
+p {
+    font-size:1em;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    text-align:left;
+    position: absolute;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+a {
+    color: white;
+}
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 100;
+    color: white;
+}
+
+@media only screen and (min-width: 481px) {
+    .square {
+    float:left;
+    position: relative;
+    width: 46%;
+    padding-bottom : 46%; /* = width for a 1:1 aspect ratio */
+    margin: 2%;
+}
+}
+@media only screen and (min-width: 769px) {
+    .square {
+    float:left;
+    position: relative;
+    width: 29.3%;
+    padding-bottom : 29.3%; /* = width for a 1:1 aspect ratio */
+    margin: 2%;
+}
+}
+
+.img_1-1{background-color: #ACCE55;}
+.img_1-2{background-color: #AC1D1C;}
+.img_1-3{background-color: #AD08E5;}
+
+.img_2-1{background-color: #8A81E5;}
+.img_2-2{background-color: #8ADA55;}
+.img_2-3{background-color: #8ADD1E;}
+
+.img_3-1{background-color: #8A51C5;}
+.img_3-2{background-color: #80D1E5;}
+.img_3-3{background-color: #80081E;}
+
+.img_4-1{background-color: #80061E;}
+.img_4-2{background-color: #8002E5;}
+.img_4-3{background-color: #8055ED;}
+
+.img_5-1{background-color: #CA881E;}
+.img_5-2{background-color: #CAD6ED;}
+.img_5-3{background-color: #CEA5ED;}
+
+.img_6-1{background-color: #C0DEC5;}
+.img_6-2{background-color: #C00C00;}
+.img_6-3{background-color: #C0FFEE;}
+
+.img_7-1{background-color: #C051ED;}
+.img_7-2{background-color: #DA88ED;}
+.img_7-3{background-color: #DA15E5;}
+
+.img_8-1{background-color: #DECADE;}
+.img_8-2{background-color: #DECAF5;}
+.img_8-3{background-color: #DEC1DE;}
+
+.img_9-1{background-color: #DEC0DE;}
+.img_9-2{background-color: #DEF1E5;}
+.img_9-3{background-color: #D166ED;}
+
+.img_10-1{background-color: #D15C05;}
+.img_10-2{background-color: #D155E5;}
+.img_10-3{background-color: #D0D6ED;}
+
+.img_11-1{background-color: #D0661E;}
+.img_11-2{background-color: #D0081E;}
+.img_11-3{background-color: #D00D00;}
+
+.img_12-1{background-color: #D05A6E;}
+.img_12-2{background-color: #FA5ADE;}
+.img_12-3{background-color: #FAECE5;}
+
+.img_13-1{background-color: #F188ED;}
+.img_13-2{background-color: #F122E5;}
+.img_13-3{background-color: #F00D1E;}
+
+.img_14-1{background-color: #6E0DE5;}
+.img_14-2{background-color: #600D1E;}
+.img_14-3{background-color: #0FF1CE;}
+
+.img_15-1{background-color: #5A55ED;}
+.img_15-2{background-color: #5C0FF5;}
+.img_15-3{background-color: #5EAD06;}
+
+.img_16-1{background-color: #5E12ED;}
+.img_16-2{background-color: #2162A6;}
+.img_16-3{background-color: #20D1AC;}
+
